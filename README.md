@@ -21,10 +21,10 @@ Assuming that you're using *phpMyadmin* to upload the database, if you're still 
 
 To change your Magento database settings (username, password, database name, etc...), please change the following settings in \app\etc\local.xml
 
-  - <host><![CDATA[localhost]]></host>
-  - <username><![CDATA[root]]></username>
-  - <password><![CDATA[12345]]></password>
-  - <dbname><![CDATA[magento1]]></dbname>
+  - <!host><![CDATA[localhost]]></!host>
+  - <!username><![CDATA[root]]></!username>
+  - <!password><![CDATA[12345]]></!password>
+  - <!dbname><![CDATA[magento1]]></!dbname>
 
 The username to login to the Magento Backend (http://localhost/admin) is "admin" and the password is "password". Original...
 
